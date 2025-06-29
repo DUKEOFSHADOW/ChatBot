@@ -3,7 +3,7 @@ import { useAuthStore } from "../stores";
 import { storeToRefs } from "pinia";
 
 const service = axios.create({
-  baseURL: import.meta.env.VITE_GLOB_API_URL,
+  baseURL: "",
 });
 
 // 请求拦截器
